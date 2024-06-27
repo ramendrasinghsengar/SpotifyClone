@@ -8,16 +8,16 @@ let gif= document.getElementById('gif');
 let masterSongName= document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName: "Salam-e-Ishq", filePath: "song/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "song/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Let-me-Love", filePath: "song/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Counting Stars", filePath: "song/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Just Like a Movie", filePath: "song/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Beautiful Things", filePath: "song/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Found You First", filePath: "song/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "POur ME A Drink", filePath: "song/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Me BEfore You", filePath: "song/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "I Don't Care", filePath: "song/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Let Her Go", filePath: "song/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Neon Lights", filePath: "song/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i) => {
